@@ -1,0 +1,141 @@
+/*************TAG***************
+***********Selector************/
+body { 
+    margin: 0px;
+    text-align: center;
+}
+h1{
+    color: #A6D1E6;
+    line-height: 2;
+    margin: 25px auto 0 auto;
+    width: 100%;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', serif;
+}
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    color: #7F5283;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    margin  : 0px;
+}
+span {
+    text-decoration: underline;
+}
+p{
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    font-weight: bold;
+}
+a{
+    font-family: 'Merriweather', serif;
+    color: #7F5283;
+}
+hr{
+    border-style: dotted;
+    border-top: none;
+    border-width: 5px;
+    color: grey;
+    width: 5%;
+
+}
+/******** ***Class***************
+***********Selector************/
+.top-container{
+    background-color: #FEFBF6;
+    padding: 100px 0px;
+    position: relative;
+}
+.cloud1{
+    position: absolute;
+    right: 350px;
+    top: 50px;
+}
+.cloud2{
+    position: absolute;
+    left: 350px;
+    top: 400px;
+}
+.title {
+    color: #A6D1E6;
+    font-weight: normal;
+}
+.middle-container{
+    background-color: #f0fdfd;
+}
+.profile{
+    padding: 50px 0;
+}
+.profile-image{
+    margin-bottom: 30px;
+}
+.profile-desc{
+    width: 30%;
+    margin: 0 auto;
+}
+.skills{
+    padding: 50px 0;
+}
+.skill-row { 
+    width: 50%;
+    margin: 0px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row2 { 
+    width: 50%;
+    margin: 50px auto 20px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-image{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-image2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.contact-me{
+    padding: 50px;
+}
+.contact-me-desc{
+    width: 50%;
+    margin: 30px auto;
+}
+.btn{
+    background: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    color: #FEFBF6;
+    display: block;
+    margin: 50px auto;
+    padding: 10px;
+    text-decoration: none;
+    width: 10%;
+}
+.btn:hover{
+    background: linear-gradient(to bottom, #30e3cb,#2bc4ad);
+}
+.bottom-container{ 
+    background-color: #66BFBF;
+    padding: 50px 0;
+}
+.footer-link{
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+    
+}
+.copyright{
+    color: #EAF6F6;
+    margin: 20px auto;
+    font-size:x-small;
+}
